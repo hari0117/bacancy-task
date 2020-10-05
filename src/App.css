@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.App-container{
+  height: 90%;
+  overflow-y: scroll;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+._loading_overlay_wrapper{
+      position: fixed !important;
+      height: 100%;
+      width: 100%;
+      z-index: 100;
 }
